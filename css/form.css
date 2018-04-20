@@ -1,0 +1,80 @@
+html, body {
+    font-family: Avenir, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #efeaea;
+}
+
+.form__container {
+    justify-content: center;
+    height: 100%;
+
+}
+
+.form__wrapper {
+    margin: 0 auto;
+    width: 221px;
+    position: relative;
+    top: 8rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 221px;
+    text-align: center;
+}
+
+.logo, .form__text {
+    width: 221px;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: left;
+    padding-left: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    width: 10rem;
+    padding: 1.8%;
+    border-radius: 0.2rem;
+}
+
+.last__input {
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    padding: 3px 20px;
+
+}
+
+.block {
+    display: block;
+    padding-top: 1rem;
+}
+
+.registreer {
+    display: inline;
+}
+
+.wachtwoord {
+    margin-left: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #429AD2;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+    .form__wrapper {
+        border: 1px solid #4c4c4c;
+        padding: 3rem;
+    }
+}
